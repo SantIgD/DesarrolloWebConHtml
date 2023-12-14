@@ -6,3 +6,8 @@ h2 {
     color: burlywood;
     background-color: rebeccapurple;
 }
+
+/* Todos los <h2> hijos de <section> tienen color verde */
+section h2 {
+    color:rgb(25, 27, 25);
+}
