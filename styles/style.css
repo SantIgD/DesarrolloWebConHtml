@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
 
+/* todo */
+*{
+    box-sizing: border-box;
+}
+
 /* Selector Grupal, para los p y los h3 */
 p,h3 {
     color: rgb(70, 65, 75);
@@ -38,4 +43,6 @@ div{
     width: 300px;
     height: 300px;
     border: 1px solid black;
+    margin-left: 50px;
+    padding-left: 50px;
 }
