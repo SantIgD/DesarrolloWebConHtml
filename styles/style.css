@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
 
+/* Selector Grupal, para los p y los h3 */
 p,h3 {
     color: rgb(70, 65, 75);
 }
 
 h2 {
     color: burlywood;
-    background-color: rebeccapurple;
+    background-color: rgb(245, 235, 255);
 }
 
 /* Todos los <h2> hijos de <section> tienen color verde */
 section h2 {
-    color:rgb(25, 27, 25);
+    color:rgb(47, 185, 47);
 }
+
+/* La lógica se aplica a lo más cercano a la llamada, un h2 dentro de un section aplica el h2 dentro del section */
