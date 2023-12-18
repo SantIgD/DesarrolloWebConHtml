@@ -8,11 +8,21 @@
 /* Selector Grupal, para los p y los h3 */
 p,h3 {
     color: rgb(70, 65, 75);
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: none;
+
+    /* text-decoration: underline aliceblue; */
+    text-decoration: none;
+
+    text-align: justify;
+
 }
 
 h2 {
     color: burlywood;
     background-color: rgb(245, 235, 255);
+    text-align: center;
 }
 
 /* Todos los <h2> hijos de <section> tienen color verde */
