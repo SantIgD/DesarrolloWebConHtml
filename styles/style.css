@@ -16,3 +16,8 @@ section h2 {
 }
 
 /* La lógica se aplica a lo más cercano a la llamada, un h2 dentro de un section aplica el h2 dentro del section */
+
+/* Pseudoclase, solo comportamiento para link */
+a:link{
+    color:red
+}
